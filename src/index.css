@@ -1,0 +1,50 @@
+body {
+  font-family: arial;
+}
+
+header {
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #e8e7e7;
+  border-bottom: solid 2px #e8e7e7;
+}
+
+header h1 {
+  flex-grow: 1;
+
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.stopwatch {
+  align-items: center;
+}
+
+.stopwatch {
+  text-align: center;
+  padding: 15px 10px 5px 10px;
+  margin: -5px -10px -5px 10px;
+}
+
+.stopwatch h1 {
+  flex-grow: 1;
+  font-size: 95px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.stopwatch button {
+  margin: 8px 5px;
+  background-color: #44338d;
+  border-radius: 5px;
+  padding: 7px 8px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: none;
+  text-transform: uppercase;
+}
